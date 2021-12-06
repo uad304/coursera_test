@@ -21,6 +21,11 @@
   color: black;
 }
 
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #nav-list li {
   background-color: white;
   color: black;
