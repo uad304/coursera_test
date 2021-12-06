@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit');
+
+* {  
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Outfit,sans-serif;
+  box-sizing: border-box;
+}
+
+#header-nav {
+  position:  relative;
+  background-color: gray;
+  padding-left: 15px;
+  border: solid 2px;
+  border-radius: 0
+}
+
+#collapsable-nav {
+  margin-left: -30px;
+  color: black;
+}
+
+#nav-list li {
+  background-color: white;
+  color: black;
+  font-size: 1.5em;
+  border: solid 1px;
+}
+
+#nav-list li a {
+  color: black;
+}
+
+#nav-list li a:hover
+{
+  background-color:lightgrey;
+}
+
+header {
+  background-color: gray;
+  color:  black;
+}
+
+button {
+  height: 40px;
+}
+
+main {
+  background-color: white;
+  color:  black;
+}
+
+h1 {
+  height: 50px;
+  font-weight: 600;
+  color: black;
+}
+
+h2 {
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+section div {
+  background-color: gray;
+  margin-bottom:  20px;
+  padding: 10px 20px;  
+}
+
+section h3 {
+  font-weight: 600;
+  margin-top: 0;
+  font-size: 1.4em;
+}
+
+section p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+section p span a {
+  padding-left: 10px;
+  color:  blue;
+  text-decoration: underline;
+}
+
+span.back {
+  display: block;
+}
+
+.navbar-brand {
+  width: 300px;
+  height: 120px;
+  color:  black;
+}
+
+.navbar-button {
+  margin: 30px 30px 0 0;
+  float: right;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  h1 {
+    padding-left: 15px
+  }
+}
